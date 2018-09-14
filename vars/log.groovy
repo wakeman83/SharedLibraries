@@ -4,5 +4,5 @@ def info(message) {
 }
 
 def warning(message){
-  echo "WARNING: ${mesage}"
+  echo "WARNING: ${message}"
 }

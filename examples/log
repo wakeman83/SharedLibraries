@@ -1,14 +1,16 @@
 
 @Library("utils") _
 
-pipelines {
+pipeline {
 
   agent none
-  stage('Example'){
-    steps{
-      scripts{
-        log.info 'Starting'
-        log.warning 'Nothing to do!'
+  stages {
+    stage('Example') {
+      steps {
+        scripts {
+          log.info 'Starting'
+          log.warning 'Nothing to do!'
+        }
       }
     }
   }

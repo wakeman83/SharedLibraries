@@ -9,7 +9,7 @@ pipeline {
 
       steps {
         checkout scm
-        sh 'make'      
+        sh './gradlew test'      
       }
     }
   }
